@@ -1,4 +1,5 @@
 import './App.css';
+import Teste from './component/Teste';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         </p>
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>
+          <Teste/>
         </p>
         <p>
           <a
