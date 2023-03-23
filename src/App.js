@@ -5,25 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
+        <h1>Pessoas:</h1>
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <Teste/>
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Teste name="João" age="18" hobby="Violão"></Teste>
+          <Teste name="Amélio" age="35" hobby="Leitura"></Teste>
+          <Teste name="Gabriel" age="23" hobby="Surfe"></Teste>
+          <Teste></Teste>
         </p>
       </header>
     </div>
