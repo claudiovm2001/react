@@ -2,6 +2,7 @@ import './App.css';
 import Teste from './component/Teste';
 import Btn from './component/Btn';
 import Formulario from './component/Formulario';
+import Email from './component/Email';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </p>
 
         <Formulario/>
+        <Email/>
       </header>
     </div>
   );
