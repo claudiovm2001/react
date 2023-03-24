@@ -19,7 +19,7 @@ Teste2.propTypes = {
 Teste2.defaultProps = {
     name: '<NOME NAO INFORMADO>',
     age: '<IDADE NAO INFORMADA>',
-    hobby: 'PASSATEMPO N INFORMADO'
+    hobby: '<PASSATEMPO N INFORMADO>'
 }
 
 export default Teste2;
